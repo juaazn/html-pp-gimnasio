@@ -55,3 +55,13 @@ Enlaces
 [Pexels](https://www.pexels.com/ "Pexels")
 
 [Pixabay](https://pixabay.com/ "Pixabay")
+
+# Solución
+Esta es la tabla creada con la página de gatos y sus archivos multimedia añadidas.
+
+## Tabla
+![image](https://github.com/juaazn/html-pp-gimnasio/assets/90198371/efc370a3-e7d2-4fff-9051-74b0064bcae3)
+
+## Página gatos
+![127 0 0 1_5500_gatitos html](https://github.com/juaazn/html-pp-gimnasio/assets/90198371/e66c6a2d-e3c2-4e0a-b101-50d392854e42)
+
