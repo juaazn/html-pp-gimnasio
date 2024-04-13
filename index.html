@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasio</title>
+</head>
+<body>
+    <table class="tabla">
+        <thead>
+					<tr class="head__info">
+            <th colspan="3">Invoice #123456789</th>
+						<th colspan="1">14 January 2025</th>
+					</tr>
+        </thead>
+				<tbody>
+					<tr>
+						<td colspan="2">
+						<p><strong>Pay to:</strong></p>
+						<p>Acme Billing Co.</p>
+						<p>123 Main St.</p>
+						<p>Cityville, NA 12345</p>
+						</td>
+						<td colspan="2">
+							<p><strong>Customer:</strong></p>
+							<p>John Smith</p>
+							<p>321 Willow Way</p>
+							<p>Southeast Northwestershire, MA 54321</p>
+						</td>
+					</tr>	
+					<tr class="head__info">
+						<th>Name / Description</th>
+						<th>Qty</th>
+						<th>@</th>
+						<th>Cost</th>
+					</tr>
+					<tr>
+						<td>Paperclips</td>
+						<td>1000</td>
+						<td>0.001</td>
+						<td>10.00</td>
+					</tr>
+					<tr>
+						<td>Staples (box)</td>
+						<td>100</td>
+						<td>1.00</td>
+						<td>100.00</td>
+					</tr>
+					<tr>
+						<td class="head__info" colspan="3"><strong>Subtotal</strong></td>
+						<td colspan="1">110.00</td>
+					</tr>
+					<tr>
+						<td class="head__info" colspan="2"><strong>Tax</strong></td>
+						<td colspan="1">8%</td>
+						<td class="1">8.80</td>
+					</tr>
+					<tr>
+						<td class="head__info" colspan="3"><strong>Grand Total</strong></td>
+						<td colspan="1">$ 118.80</td>
+					</tr>
+				</tbody>
+    </table>
+</body>
+<style>
+    body {
+        width: 50vw;
+				height: 100vh;
+        margin: 0 auto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+		.tabla {
+			width: 100%;
+			height: auto;
+			border-collapse: collapse;
+			border: .1rem solid #282828;
+			letter-spacing: .1rem;
+			text-align: left;
+		}
+		td, th {
+			border: .1rem solid #282828;
+			padding: .4rem 1rem;
+		}
+		.head__info {
+			background-color: #c1c1c1;
+		}
+</style>
+</html>
